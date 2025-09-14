@@ -1,0 +1,88 @@
+## Models
+Primary Keys
++ [key]
++ [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
+Foreign Keys
++ Make sure to define Primary key properties in your entity classes.
+e.g 
+- BookId in Book class is a primary key.
+- In Library class, LibraryId is a primary key, and BookId is a foreign key referencing Book.
+
+Navigation Properties
+- on 1 Side (Library Class)
++ public virtual Book Book { get; set; } // Navigation property to Book
+- on Many Side (Book Class)
++ public virtual ICollection<Library> Libraries { get; set; } // Navigation property to Libraries
+
+## DbContext
++ using System.Data.Entity;
++ using Namespace.Models; // Adjust namespace as needed
+
++ public class LibraryContext : DbContext
+{
+	public LibraryContext() : base("name=LibraryDBConnectionString") // Connection string name from web.config file
+	{
+	}
+	public DbSet<Book> Books { get; set; }
+	public DbSet<Library> Libraries { get; set; }
+}
+
+## LINQ Queries
++ where () filter Collection
+
++ FirstOrDefault() and SingleOrDefault() methods retrieve a single record. 
++ FirstOrDefault() returns the first item or null, 
++ while SingleOrDefault() throws an exception if more than one item is found. For a primary key lookup,
++ SingleOrDefault() is a good choice because it enforces uniqueness.
+
+## Business Logic Methods (LINQ is used)
+- get books 
++ public double getBook()
+        {
+            // Create an instance of the DbContext
+            LibraryContext db = new LibraryContext();
+
+            // Use a LINQ query to find the BookName in the Library
+            var bookDetail = (from t in db.Boook
+                                where t.BookId == this.BookId // 'this.BookId' refers to the BookId of the current Library object
+                                select t.BookName).SingleOrDefault();
+
+            // The query returns a double, so you can return it directly.
+            return bookDetail;
+        }
+- use intellsense much more easier said then done
+
+##Connection String(In web.config file)
+- for Local PC
++ <connectionStrings>
+    <add name="LibraryDBConnectionString" 
+         connectionString="Data Source=YOUR_SERVER_NAME;Initial Catalog=LibraryDB;Integrated Security=True" 
+         providerName="System.Data.SqlClient" />
+  </connectionStrings>
+- for Lab PC
++ <connectionStrings>
+    <add name="LibraryDBConnectionString"
+        connectionString="Data Source=LAB4-PC45;Initial Catalog=YourDatabaseName;
+        User ID=sa;Password=Server01;"
+            providerName="System.Data.SqlClient" />
+</connectionStrings>
+
+## Migrations
++ Enable-Migrations
++ Add-Migration IntialCreate
++ Update-Database 
+
+
+## Create Action Method
+- in th create method of the controller   
+- inside if (ModelState.IsValid) {}
++ table.propety = table.methodoftheProperty();
+
+e.g
++ Library.BookName = Library.getBook();
+
+
+ 
+
+

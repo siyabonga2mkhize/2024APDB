@@ -1,0 +1,112 @@
+﻿@model _2024Exam.Models.Booking
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Booking</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Customer.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customer.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Trip.Destination)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Trip.Destination)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BookingDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BookingDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TriEndDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TriEndDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TripPurpose)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TripPurpose)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FianalPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FianalPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerTypeDiscount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerTypeDiscount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LoyaltyDiscount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoyaltyDiscount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DurationDiscount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DurationDiscount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PurposeDiscount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PurposeDiscount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BookingReference)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BookingReference)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

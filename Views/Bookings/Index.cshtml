@@ -1,0 +1,93 @@
+﻿@model IEnumerable<_2024Exam.Models.Booking>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Customer.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Trip.Destination)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookingDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TriEndDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TripPurpose)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FinalPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerTypeDiscount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LoyaltyDiscount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DurationDiscount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PurposeDiscount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookingReference)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Customer.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Trip.Destination)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookingDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TriEndDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TripPurpose)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FinalPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerTypeDiscount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LoyaltyDiscount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DurationDiscount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PurposeDiscount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookingReference)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.BookingId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BookingId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.BookingId })
+        </td>
+    </tr>
+}
+
+</table>

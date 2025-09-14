@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|c:\\users\\thesm\\source\\repos\\year 2\\apda\\gemini\\code-first\\past paper\\2024exam\\code-first approach update.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|solutionrelative:code-first approach update.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\migrations\\202509131530382_intialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|solutionrelative:migrations\\202509131530382_intialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|solutionrelative:controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\views\\bookings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|solutionrelative:views\\bookings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|solutionrelative:views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|solutionrelative:views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|solutionrelative:models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\models\\tripbookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|solutionrelative:models\\tripbookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FF9C96-7F1B-4D8A-BC38-765C58A3E7A8}|2024Exam.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Code-First Approach Update.txt",
+              "DocumentMoniker": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Code-First Approach Update.txt",
+              "RelativeDocumentMoniker": "Code-First Approach Update.txt",
+              "ToolTip": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Code-First Approach Update.txt",
+              "RelativeToolTip": "Code-First Approach Update.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-14T15:03:49.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "202509131530382_IntialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Migrations\\202509131530382_IntialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\202509131530382_IntialCreate.cs",
+              "ToolTip": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Migrations\\202509131530382_IntialCreate.cs",
+              "RelativeToolTip": "Migrations\\202509131530382_IntialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T15:31:00.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Views\\Bookings\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bookings\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Views\\Bookings\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Bookings\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T15:24:14.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Views\\Bookings\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bookings\\Create.cshtml",
+              "ToolTip": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Views\\Bookings\\Create.cshtml",
+              "RelativeToolTip": "Views\\Bookings\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T15:11:51.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SQLQuery1.sql",
+              "DocumentMoniker": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "SQLQuery1.sql",
+              "ToolTip": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\SQLQuery1.sql",
+              "RelativeToolTip": "SQLQuery1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-13T15:00:40.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Views\\Bookings\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bookings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Views\\Bookings\\Index.cshtml",
+              "RelativeToolTip": "Views\\Bookings\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswEsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T14:54:41.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAlwEUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T14:28:31.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TripBookingContext.cs",
+              "DocumentMoniker": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Models\\TripBookingContext.cs",
+              "RelativeDocumentMoniker": "Models\\TripBookingContext.cs",
+              "ToolTip": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Models\\TripBookingContext.cs",
+              "RelativeToolTip": "Models\\TripBookingContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T14:04:08.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:49:33.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Models\\Trip.cs",
+              "RelativeDocumentMoniker": "Models\\Trip.cs",
+              "ToolTip": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Models\\Trip.cs",
+              "RelativeToolTip": "Models\\Trip.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:49:16.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\thesm\\source\\repos\\Year 2\\APDA\\Gemini\\Code-First\\Past Paper\\2024Exam\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:41:47.711Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
